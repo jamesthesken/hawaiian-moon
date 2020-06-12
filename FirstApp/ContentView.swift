@@ -11,29 +11,40 @@ import SwiftySuncalc
 
 var message = "Hello, James!😸";
 
+// Class to get the current lunar phase
 class lunarData {
+    // Returns a string which represents the current lunar phase.
     func getData() -> String{
         let suncalc: SwiftySuncalc! = SwiftySuncalc();
         let moonIllumination = suncalc.getMoonIllumination(date: Date());
-
-        let moonPhase = moonIllumination["angle"]
-        let b:String = String(format:"%f", moonPhase!)
-
-        print(moonPhase!)
         
-        return b
+        let moonPhase = moonIllumination["phase"]
+                
+        if moonPhase != nil && moonPhase! > 0.5 {
+            let daMoon:String = "It's the last quarter!"
+            return daMoon
+        }
+
+        else{
+            // Convert the Double? type to String
+            let daMoon:String = String(format:"%f", moonPhase as! CVarArg)
+            return daMoon
+        }
+//        let daMoon:String = String(format:"%f", moonPhase as! CVarArg)
     }
 }
 
 struct ContentView: View {
     
+    // Initialize the object
     let moonData = lunarData()
-    init()  {
-        moonData.getData()
-    }
     
     var body: some View {
-        Text(moonData.getData())
+        VStack(alignment: .center){
+            Text(message)
+                .font(.title)
+            Text(moonData.getData())
+        }
     }
 }
 
