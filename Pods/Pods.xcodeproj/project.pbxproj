@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DFA41764C5BE89BDBCC733D8FF24A69 /* SwiftySuncalc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA0C191736358DD682AB76E7B4A6B8C /* SwiftySuncalc-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		886D9A553379F0F0F9E67820EC569759 /* SwiftySuncalc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AFBFBF8AA3CAA165CA1EF5FD0CE7FA /* SwiftySuncalc-dummy.m */; };
+		A911AAEBC99F8E19CF2B72ED6F418355 /* SwiftySuncalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA667F6AC1BEF5A55E12DB4039AE7F99 /* SwiftySuncalc.swift */; };
+		CE824CAC96D876682C307866B2182825 /* Pods-FirstApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F31DC4E06A1EDAA911320BCADA6BDA /* Pods-FirstApp-dummy.m */; };
+		D2E572A9493F4FC9B7E8181C35E21E7C /* Pods-FirstApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B68E382F5DD97FB767CBB92CC9B7799C /* Pods-FirstApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62A37F618E89F5F04731C0B89591AB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A49C9A78C1538F064C739FAFF66B747;
+			remoteInfo = SwiftySuncalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F31DC4E06A1EDAA911320BCADA6BDA /* Pods-FirstApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FirstApp-dummy.m"; sourceTree = "<group>"; };
+		15CD9FFBBEF0C0AE0918A2A6910C1A88 /* Pods-FirstApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FirstApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19CE88AEFA82B7DE0F4E7437C451EBB3 /* Pods-FirstApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirstApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA0C191736358DD682AB76E7B4A6B8C /* SwiftySuncalc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySuncalc-umbrella.h"; sourceTree = "<group>"; };
+		5EC76696690C0C6EB488788801C4D65E /* libSwiftySuncalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftySuncalc.a; path = libSwiftySuncalc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8481DC35B438CCFFA22C0CE9EED4DEC5 /* Pods-FirstApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirstApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B0E7E552070959420A19A748A5623E8 /* SwiftySuncalc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySuncalc.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABBA6B42475A00C607D9F1D70A8FD0FA /* SwiftySuncalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySuncalc.debug.xcconfig; sourceTree = "<group>"; };
+		B2AFBFBF8AA3CAA165CA1EF5FD0CE7FA /* SwiftySuncalc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySuncalc-dummy.m"; sourceTree = "<group>"; };
+		B354DC0BC9DFD7EF8905C2D40271E60E /* libPods-FirstApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FirstApp.a"; path = "libPods-FirstApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68E382F5DD97FB767CBB92CC9B7799C /* Pods-FirstApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FirstApp-umbrella.h"; sourceTree = "<group>"; };
+		CBBBDDDF8D54EDE19C3B1186B79F07BC /* Pods-FirstApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FirstApp.modulemap"; sourceTree = "<group>"; };
+		CD86A6E74A632AF51F31CEC0DEB3DEED /* SwiftySuncalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySuncalc.release.xcconfig; sourceTree = "<group>"; };
+		CFADA886B73A04DB0CE466788937E3D1 /* Pods-FirstApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirstApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA667F6AC1BEF5A55E12DB4039AE7F99 /* SwiftySuncalc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftySuncalc.swift; path = SwiftySuncalc/SwiftySuncalc.swift; sourceTree = "<group>"; };
+		E9618C33AF50B4F7988D5047391AD71A /* SwiftySuncalc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySuncalc-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5267861888132C7B1F57E07880C63DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD2DF3965AF79C14E8572D65FFD464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E01D9CD60F23DD6266EEB71EBF7BEF /* SwiftySuncalc */ = {
+			isa = PBXGroup;
+			children = (
+				DA667F6AC1BEF5A55E12DB4039AE7F99 /* SwiftySuncalc.swift */,
+				813DCF6E81C2E15A0FEF2121BC42085F /* Support Files */,
+			);
+			name = SwiftySuncalc;
+			path = SwiftySuncalc;
+			sourceTree = "<group>";
+		};
+		27CB838B708EF97358A1A1BBE4ECA393 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45FD5033DF00D6988FBCE641425AC0E /* Pods-FirstApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65238187D7B6088676C8322A90A39166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B354DC0BC9DFD7EF8905C2D40271E60E /* libPods-FirstApp.a */,
+				5EC76696690C0C6EB488788801C4D65E /* libSwiftySuncalc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813DCF6E81C2E15A0FEF2121BC42085F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B0E7E552070959420A19A748A5623E8 /* SwiftySuncalc.modulemap */,
+				B2AFBFBF8AA3CAA165CA1EF5FD0CE7FA /* SwiftySuncalc-dummy.m */,
+				E9618C33AF50B4F7988D5047391AD71A /* SwiftySuncalc-prefix.pch */,
+				2CA0C191736358DD682AB76E7B4A6B8C /* SwiftySuncalc-umbrella.h */,
+				ABBA6B42475A00C607D9F1D70A8FD0FA /* SwiftySuncalc.debug.xcconfig */,
+				CD86A6E74A632AF51F31CEC0DEB3DEED /* SwiftySuncalc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySuncalc";
+			sourceTree = "<group>";
+		};
+		9326D19373FC9BB64A67101527528963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13E01D9CD60F23DD6266EEB71EBF7BEF /* SwiftySuncalc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				9326D19373FC9BB64A67101527528963 /* Pods */,
+				65238187D7B6088676C8322A90A39166 /* Products */,
+				27CB838B708EF97358A1A1BBE4ECA393 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D45FD5033DF00D6988FBCE641425AC0E /* Pods-FirstApp */ = {
+			isa = PBXGroup;
+			children = (
+				CBBBDDDF8D54EDE19C3B1186B79F07BC /* Pods-FirstApp.modulemap */,
+				15CD9FFBBEF0C0AE0918A2A6910C1A88 /* Pods-FirstApp-acknowledgements.markdown */,
+				8481DC35B438CCFFA22C0CE9EED4DEC5 /* Pods-FirstApp-acknowledgements.plist */,
+				09F31DC4E06A1EDAA911320BCADA6BDA /* Pods-FirstApp-dummy.m */,
+				B68E382F5DD97FB767CBB92CC9B7799C /* Pods-FirstApp-umbrella.h */,
+				19CE88AEFA82B7DE0F4E7437C451EBB3 /* Pods-FirstApp.debug.xcconfig */,
+				CFADA886B73A04DB0CE466788937E3D1 /* Pods-FirstApp.release.xcconfig */,
+			);
+			name = "Pods-FirstApp";
+			path = "Target Support Files/Pods-FirstApp";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92DC21ECF2D2AC5A20FACF638287704B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFA41764C5BE89BDBCC733D8FF24A69 /* SwiftySuncalc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C968F7BD7353A210575C8BE9B04533F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E572A9493F4FC9B7E8181C35E21E7C /* Pods-FirstApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A49C9A78C1538F064C739FAFF66B747 /* SwiftySuncalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C12786BA71DD3B44CABA3F9982DA535 /* Build configuration list for PBXNativeTarget "SwiftySuncalc" */;
+			buildPhases = (
+				92DC21ECF2D2AC5A20FACF638287704B /* Headers */,
+				57835626D3C258E1ACD0F2B556BEB6C4 /* Sources */,
+				5DD2DF3965AF79C14E8572D65FFD464F /* Frameworks */,
+				96B0E3446565A151606410032E893F04 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySuncalc;
+			productName = SwiftySuncalc;
+			productReference = 5EC76696690C0C6EB488788801C4D65E /* libSwiftySuncalc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E6732F76310CF01ED744E08ACCAF00E3 /* Pods-FirstApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48461F17E05DDC0DEA518A4BDFFE8FC8 /* Build configuration list for PBXNativeTarget "Pods-FirstApp" */;
+			buildPhases = (
+				9C968F7BD7353A210575C8BE9B04533F /* Headers */,
+				4580B626DED729ED9743509C5C7B6326 /* Sources */,
+				5267861888132C7B1F57E07880C63DFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2772B4CA3E6B42EB7EF1AA381E563D73 /* PBXTargetDependency */,
+			);
+			name = "Pods-FirstApp";
+			productName = "Pods-FirstApp";
+			productReference = B354DC0BC9DFD7EF8905C2D40271E60E /* libPods-FirstApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65238187D7B6088676C8322A90A39166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6732F76310CF01ED744E08ACCAF00E3 /* Pods-FirstApp */,
+				8A49C9A78C1538F064C739FAFF66B747 /* SwiftySuncalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96B0E3446565A151606410032E893F04 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftySuncalc/SwiftySuncalc.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftySuncalc/SwiftySuncalc-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftySuncalc-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftySuncalc/SwiftySuncalc.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftySuncalc/SwiftySuncalc-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4580B626DED729ED9743509C5C7B6326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE824CAC96D876682C307866B2182825 /* Pods-FirstApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57835626D3C258E1ACD0F2B556BEB6C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886D9A553379F0F0F9E67820EC569759 /* SwiftySuncalc-dummy.m in Sources */,
+				A911AAEBC99F8E19CF2B72ED6F418355 /* SwiftySuncalc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2772B4CA3E6B42EB7EF1AA381E563D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySuncalc;
+			target = 8A49C9A78C1538F064C739FAFF66B747 /* SwiftySuncalc */;
+			targetProxy = 62A37F618E89F5F04731C0B89591AB5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34AE7F440103AFBE5FE7BF9DCFAC5AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFADA886B73A04DB0CE466788937E3D1 /* Pods-FirstApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirstApp/Pods-FirstApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572541EB5E5749D642EC99BDD40B92BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CE88AEFA82B7DE0F4E7437C451EBB3 /* Pods-FirstApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirstApp/Pods-FirstApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681E05639AB0C6368B234F7B6E7FE099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBA6B42475A00C607D9F1D70A8FD0FA /* SwiftySuncalc.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySuncalc/SwiftySuncalc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SwiftySuncalc/SwiftySuncalc.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftySuncalc;
+				PRODUCT_NAME = SwiftySuncalc;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A05F95274D2B929CD2555D6AFF8DFA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD86A6E74A632AF51F31CEC0DEB3DEED /* SwiftySuncalc.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySuncalc/SwiftySuncalc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SwiftySuncalc/SwiftySuncalc.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftySuncalc;
+				PRODUCT_NAME = SwiftySuncalc;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C12786BA71DD3B44CABA3F9982DA535 /* Build configuration list for PBXNativeTarget "SwiftySuncalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E05639AB0C6368B234F7B6E7FE099 /* Debug */,
+				A05F95274D2B929CD2555D6AFF8DFA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48461F17E05DDC0DEA518A4BDFFE8FC8 /* Build configuration list for PBXNativeTarget "Pods-FirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572541EB5E5749D642EC99BDD40B92BE /* Debug */,
+				34AE7F440103AFBE5FE7BF9DCFAC5AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

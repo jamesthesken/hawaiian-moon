@@ -1,0 +1,16 @@
+PODS:
+  - SwiftySuncalc (1.0.1)
+
+DEPENDENCIES:
+  - SwiftySuncalc (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftySuncalc
+
+SPEC CHECKSUMS:
+  SwiftySuncalc: dd6a8b7886cb047056fefecf9c2fe7de7c1d93df
+
+PODFILE CHECKSUM: 212db079bc6c2f5a29e130614900785be748d6b0
+
+COCOAPODS: 1.9.3
